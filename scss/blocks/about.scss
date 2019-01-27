@@ -1,0 +1,84 @@
+.about {
+    background-color: $white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 62vh;
+
+    .about__info {
+        flex-basis: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        .about__name {
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 70px;
+            color: $blue;
+            text-transform: uppercase;
+        }
+
+        .about__work {
+            font-size: 20px;
+            font-weight: 700;
+            color: $violet;
+            text-transform: uppercase;
+        }
+
+        .about__text {
+            max-width: 70%;
+            font-size: 15px;
+            color: $about-text;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: end;
+            margin: 30px 0;
+        }
+    }
+
+    .about__img {
+        flex-basis: 30%;
+        text-align: center;
+        
+        img {
+            max-height: 62vh;
+        }
+    }
+
+    .about__skills {
+        flex-basis: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .about__skill {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 40px;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            width: 330px;
+            margin: 10px 0;
+            color: $text;
+            // border-width: 10px 10px 10px;
+            // border-style: solid;
+            // border-image: linear-gradient(45deg, $violet, $purpul); 
+
+            &::after {
+                background: linear-gradient(45deg, $violet, $purpul);
+                content: "";
+                display: block;
+                height: 10px;
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+}

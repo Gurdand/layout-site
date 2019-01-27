@@ -1,0 +1,38 @@
+.service-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    //width: 30%;
+    min-height: 38vh;
+    //padding-top: 70px;
+
+    .service-block__icon {
+        width: 114px;
+        height: 114px;
+        background: linear-gradient(45deg, $violet, $purpul);
+        border-radius: 50%;
+        line-height: 114px;
+        text-align: center;
+        font-size: 44px;
+        color: $white;
+        margin: 10px;
+    }
+
+    .service-block__title {
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: $text;
+        margin: 20px 0;
+    }
+
+    .service-block__text {
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        color: $text;
+        text-align: center;
+    }
+}

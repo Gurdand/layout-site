@@ -1,0 +1,19 @@
+//reset style
+@import '../node_modules/reset-css/sass/reset';
+
+@import "core.scss";
+@import "fonts.scss";
+@import "variables.scss";
+
+@import "blocks/top.scss";
+@import "blocks/banner.scss";
+@import "blocks/button.scss";
+@import "blocks/about.scss";
+@import "blocks/contacts/contacts.scss";
+@import "blocks/contacts/contact.scss";
+@import "blocks/header.scss";
+@import "blocks/services/services.scss";
+@import "blocks/services/service-block.scss";
+@import "./blocks/testimonials.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/experience.scss";

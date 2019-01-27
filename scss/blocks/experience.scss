@@ -1,0 +1,54 @@
+.experience {
+    min-height: 107vh;
+    background: linear-gradient(45deg, $violet, $purpul);
+    color: $white;
+
+    .experience__content {
+        padding: 6% 12%;
+        min-height: 63.5vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .experience__item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .experience__info {
+                flex-basis: 25%;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 37px;
+                text-transform: uppercase;
+                text-align: right;
+            }
+
+            .experience__line {
+                width: 15px;
+                height: 60px;
+                background-color: $white;
+            }
+
+            .experience__text {
+                flex-basis: 68%;
+                font-size: 15px;
+                line-height: 30px;
+            }
+
+            &:nth-child(even){
+                flex-direction: row-reverse;
+
+                .experience__info {
+                    text-align: left;
+                }
+
+                .experience__text {
+                    text-align: right;
+                }
+            }
+        }
+
+    }
+}

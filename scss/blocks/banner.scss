@@ -1,0 +1,45 @@
+.banner {
+    background: url(../img/banner.png) no-repeat center;
+
+    .banner__content {
+        min-height: 87vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $white;
+
+        .banner__hello {
+            margin-top: 25vh;
+            font-size: 47px;
+        }
+
+        .banner__name {
+            font-size: 206px;
+            line-height: 150px;
+            background: linear-gradient(45deg, $violet ,$purpul);
+            background-clip: text;
+            color: transparent;
+        }
+
+        .banner__surname {
+            font-size: 118px;
+            letter-spacing: 30px;
+        }
+
+        .banner__text {
+            font-size: 25px;
+        }
+
+        .banner__button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 25vh;
+        }
+
+    }   
+}
