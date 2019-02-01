@@ -1,0 +1,42 @@
+.blog {
+    min-height: 85vh;
+    padding: 0 10%;
+
+    .blog__content {
+        width: 100%;
+        padding: 6.5vh 0;
+        display: flex;
+        justify-content: space-between;
+
+        .blog__item {
+            flex-basis: 30%;
+            padding: 1%;
+
+            .blog__foto{
+                width: 100%;
+
+                .blog__img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .blog__subtitle {
+                @include font(15px, 700, 65px);
+                text-transform: uppercase;
+                color: $text;
+            }
+
+            .blog__title {
+                @include font(20px, 700, 20px);
+                text-indent: 10px;
+                margin-bottom: 20px;
+            }
+
+            .blog__text {
+                @include font(15px, 400, 30px);
+                letter-spacing: 2px;
+            }
+        }   
+    }
+}

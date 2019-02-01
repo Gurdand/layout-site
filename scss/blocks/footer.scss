@@ -1,0 +1,5 @@
+.footer {
+    text-align: center;
+    @include font(15px, 400, 150px);
+    padding-bottom: 3vh;
+}

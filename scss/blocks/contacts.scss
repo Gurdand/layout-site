@@ -1,0 +1,45 @@
+.contacts {
+    background-color: $light-gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 30vh;
+    padding: 0 12.5%;
+    box-sizing: border-box;
+
+    .contacts__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 33%;
+    
+        .contacts__icon {
+            width: 87px;
+            height: 87px;
+            font-size: 44px;
+            color: $white;
+            background-color: $gray;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 87px;
+        }
+    
+        .contacts__info {
+            flex-basis: 70%;
+            height: 10vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            font-size: 18px;
+            color: $text;
+    
+            .contacts__title {
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+    
+        }
+    
+    }
+}

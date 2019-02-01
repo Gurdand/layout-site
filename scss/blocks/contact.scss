@@ -1,0 +1,60 @@
+.contact {
+    width: 100%;
+    min-height: 72vh;
+    padding-top: 7vh;
+    background: url("../img/map.png");
+
+    .contact__block{
+        width: 73%;
+        margin: 0 auto;
+        background-color: $blue;
+
+        .contact__header {
+            color: $white;
+            height: 18vh;
+        }
+
+        .contact__form {
+            width: 83%;
+            min-height: 45vh;
+            margin: 0 auto;
+            padding-bottom: 5vh;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            align-items: center;
+            align-content: center;
+
+            .contact__name, .contact__phone, .contact__email {
+                box-sizing: border-box;
+                padding: 0 1vh;
+            }
+
+            .contact__name {
+                flex-basis: 27.5%;
+                @include font(18px, 400, 55px);
+            }
+
+            .contact__phone {
+                flex-basis: 33%;
+                @include font(18px, 400, 55px);
+            }
+
+            .contact__email {
+                flex-basis: 33%;
+                @include font(18px, 400, 55px);
+            }
+
+            .contact__message {
+                flex-basis: 100%;
+                @include font(18px, 400, 30px);
+                margin: 3vh 0;
+                height: 11vh;
+            }
+
+            .contact__button {
+                margin: auto;
+            }
+        }
+    }
+}
